@@ -103,7 +103,7 @@ body.page-template-page-fullsingle-me {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url('../../images/hur_o.jpg');
+    url('../../images/phnx1.jpg');
 
   background-position: center center;
   background-size: cover;
@@ -249,7 +249,11 @@ body.page-template-page-fullsingle-me h1 {
 }
 
 .network ul li a:hover .svg-icon path {
-  fill: var(--secondary-color);
+  fill: #ffaaff;
   -webkit-transition: 0.1s;
   transition: 0.1s;
+}
+
+/* H1 wird Lila mit hässlichen background */
+h1 {color: #ffaaff;
 }
